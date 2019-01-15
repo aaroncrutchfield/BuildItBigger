@@ -25,7 +25,7 @@ public class MainActivityFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_main, container, false);
+        View root = inflater.inflate(R.layout.fragment_main_activity, container, false);
 
         btnTellJoke = root.findViewById(R.id.btn_tell_joke);
         btnTellJoke.setOnClickListener(new View.OnClickListener() {
